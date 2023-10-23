@@ -1,0 +1,67 @@
+body{
+    background: #5452c7;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zilla Slab', serif; 
+ }
+
+
+ * {box-sizing: border-box;}
+ .caption-shadow {
+   width: 1300px;
+   margin: 50px auto 0;
+   position: relative;
+   border: 5px solid #FAAB1B;
+ }
+ .caption-shadow img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+ }
+ .caption-shadow figcaption {
+   width: 100%;
+   padding: 5px;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   background: #FAAB1B;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+   box-shadow: 0px -10px 20px -5px hsla(0%, 0%, 0%, .4%);
+ }
+
+ 
+ .button13 {
+    display: inline-block;
+    width: 15em;
+    font-size: 80%;
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+    border-radius: 6px;
+    outline: none;
+    background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+    box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+  }
+  .button13:first-line{
+    font-size: 170%;
+    font-weight: 700;
+  }
+  .button13:hover {
+    color: rgb(255,255,255);
+    background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+  }
+  .button13:active {
+    color: rgb(255,255,255);
+    border-color: #2970a9;
+    background-image: linear-gradient(#5796c8, #6aa2ce);
+    box-shadow: none;
+  }

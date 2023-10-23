@@ -1,0 +1,228 @@
+body{
+   background: #E5E5E5;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Zilla Slab', serif;
+   
+}
+
+/* My Container  */
+
+.my-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1050px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 6px 6px 20px rgb(148, 146, 146);
+}
+
+
+/* My Content Container */
+
+.my-content-secyions{
+    margin: 10px auto;
+}
+
+.my-content-secyions-2{
+    padding: 10px 40px;
+}
+
+.text1{
+    background: #373740;
+    padding: 0 15px;
+}
+
+
+
+
+/* Projects */
+
+.groups{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    background: #373740;
+    color: #E1D8CF;
+    margin: 10px 5px 15px 0;
+}
+
+.groups2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: black;
+    margin: 0 0 10px 5px;
+}
+
+.groups7{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #373740;
+    margin: 0 0 10px 5px;
+}
+
+
+.groups3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    margin: 7px 10px 15px 5px;
+}
+
+.groups4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+    padding: 0 0 20px 20px;
+    text-align: justify;
+}
+
+.groups5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: black;
+    margin: 7px 10px 15px 5px;
+}
+
+.groups6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+    margin: 0 0 15px 5px;
+}
+
+
+
+/* Profile header  */
+
+.section-name{
+    background: #373740;
+    color: #E1D8CF;
+
+}
+
+
+.name1{
+    font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 60px;
+    margin: 0 0 20px 95px;
+}
+
+
+.profession{
+    font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    margin: 10px 0 35px 190px;
+    color: white;
+} 
+
+.summary{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 10px 0 10px 50px;
+    margin-bottom: 5px;
+}
+
+.about-me{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    width: 500px;
+    padding: 5px 5px 5px 50px;
+    margin-top: 5px;
+
+}
+
+
+
+
+/* My Sidebar */
+
+.my-sidebar{
+    background-color: #E1D8CF;
+    width: 660px;
+    padding: 40px 0; 
+}
+
+.language-slills,
+.hard-skills,
+.contacts,
+.soft-skills{
+    margin: 40px 15px 0 15px;
+}
+
+.sidebar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #E1D8CF;
+    margin: 10px;
+    background: #373740;
+}
+
+.text2{
+    background: #373740;
+    padding: 0 16px;
+}
+
+.tech-list{
+    padding: 0 0 0 52px;
+    
+}
+.tech-list-item{
+    color: #143769;
+}
+.font1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373740;
+}
+
+.image{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 330px;
+    height: 330px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
